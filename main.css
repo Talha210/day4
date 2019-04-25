@@ -4,6 +4,7 @@
 
 .form-header {
   margin-top: 0;
+  color: #fff;
 }
 
 .logo {
@@ -14,4 +15,20 @@
   background-image: url(https://www.metallica.com/on/demandware.static/-/Sites-Metallica-Library/default/dwb6d5ba9e/images/homepage/home-hero.jpg);
   width: 100%;
   height: 100vh;
+}
+
+.register-form {
+  border: 1px solid #333;
+  background: rgba(69, 69, 69, 0.66);
+  padding: 5% 5%;
+  width: 33%;
+}
+
+.register-form input[type='submit'] {
+  background: #FF6700;
+  padding: 1% 2%;
+  color: #fff;
+  border: 1px solid orange;
+  text-transform: uppercase;
+  font-weight: 600;
 }
